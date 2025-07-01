@@ -1,0 +1,32 @@
+{
+  "name": "zig-tf-bot",
+  "version": "1.0.0",
+  "description": "⚡️ ZIG TF Bot: A blazing-fast, automated ZIG token transfer powerhouse for ZigChain testnet. Crafted with precision and style! 🌟",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo 'Tests coming soon to turbocharge your bot! 🚀' && exit 0",
+    "lint": "echo 'Linting on the way to keep your code sleek! ✨' && exit 0"
+  },
+  "keywords": [
+    "zigchain",
+    "blockchain",
+    "crypto",
+    "token-transfer",
+    "automation",
+    "cosmos-sdk",
+    "testnet",
+    "yuuri"
+  ],
+  "author": "Yuuri <https://t.me/sentineldiscus>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "latest",
+    "@cosmjs/proto-signing": "latest",
+    "@cosmjs/stargate": "latest",
+    "chalk": "^4.1.2"
+  }
+}
